@@ -1,0 +1,27 @@
+#改个路劲，太长了
+server:
+  port: 80
+#配置数据源
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/springboot_db
+      username: root
+      password: 20020112xing
+#开启mybatis日志输出
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+pagehelper:
+  #配置四項 hprs
+  helper-dialect: mysql  #分页助手方言：mysql
+  params: count=countSql  #为了支持 startPage(Object params) 方法
+  support-methods-arguments: true  #支持通过 Mapper 接口参数来传递分页参数，默认值 false
+  reasonable: true #分页合理化参数，默认值为 false,页码不为负，不超总页码
+#日志打印级别
+logging:
+  level:
+    org.springframework.web: debug
+
