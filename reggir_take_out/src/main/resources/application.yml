@@ -1,0 +1,20 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/reggie
+    username: root
+    password: 20020112xing
+    type: com.alibaba.druid.pool.DruidDataSource
+
+reggie:
+  path: D:\\reggie\\img\\
+mybatis-plus:
+  configuration:
+    # 开启驼峰命名法
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: assign_id
