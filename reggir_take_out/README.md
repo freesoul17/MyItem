@@ -1,6 +1,0 @@
-![img.png](src/img/img.png)
-![img_1.png](src/img/img_1.png)
-![img_1.png](src/img/img_2.png)
-![img_1.png](src/img/img_3.png)
-![img_1.png](src/img/img_4.png)
-![img_1.png](src/img/img_5.png)

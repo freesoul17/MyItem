@@ -14,6 +14,7 @@ mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+
 pagehelper:
   #配置四項 hprs
   helper-dialect: mysql  #分页助手方言：mysql
